@@ -1,0 +1,12 @@
+{ "Info" "0" "" "qar.tcl version #3" {  } {  } 0 0 "qar.tcl version #3" 0 0 "0" 0 0 1456705497877 ""}
+{ "Info" "0" "" "Including '-use_file_set basic' by default" {  } {  } 0 0 "Including '-use_file_set basic' by default" 0 0 "0" 0 0 1456705498405 ""}
+{ "Info" "0" "" "All project revisions will be stored in common archive lab4_tmp_archive.qar" {  } {  } 0 0 "All project revisions will be stored in common archive lab4_tmp_archive.qar" 0 0 "0" 0 0 1456705498406 ""}
+{ "Info" "0" "" "Initializing files for 'lab4' revision" {  } {  } 0 0 "Initializing files for 'lab4' revision" 0 0 "0" 0 0 1456705504376 ""}
+{ "Info" "0" "" "File Set 'Source control' contains:" { { "Info" "0" "" "Project source and settings files" {  } {  } 0 0 "Project source and settings files" 0 0 "0" 0 0 1456705504807 ""} { "Info" "0" "" "Automatically detected source files" {  } {  } 0 0 "Automatically detected source files" 0 0 "0" 0 0 1456705504807 ""}  } {  } 0 0 "File Set 'Source control' contains:" 0 0 "0" 0 0 1456705504807 ""}
+{ "Info" "0" "" "Archive will store files relative to the closest common parent directory" {  } {  } 0 0 "Archive will store files relative to the closest common parent directory" 0 0 "0" 0 0 1456705508098 ""}
+{ "Info" "IPRJ_ARC_TCL_TCL_USING_COMMON_DIR" "C:/Users/Justin/Documents/EEC 181 - Senior Design/lab4181/lab4 p1 linux/ " "Using common directory C:/Users/Justin/Documents/EEC 181 - Senior Design/lab4181/lab4 p1 linux/" {  } {  } 0 13213 "Using common directory %1!s!" 0 0 "Quartus II" 0 -1 1456705508170 ""}
+{ "Info" "0" "" "----------------------------------------------------------" {  } {  } 0 0 "----------------------------------------------------------" 0 0 "0" 0 0 1456705509133 ""}
+{ "Info" "0" "" "----------------------------------------------------------" {  } {  } 0 0 "----------------------------------------------------------" 0 0 "0" 0 0 1456705509133 ""}
+{ "Info" "0" "" "Generated archive 'lab4_tmp_archive.qar'" {  } {  } 0 0 "Generated archive 'lab4_tmp_archive.qar'" 0 0 "0" 0 0 1456705509133 ""}
+{ "Info" "0" "" "----------------------------------------------------------" {  } {  } 0 0 "----------------------------------------------------------" 0 0 "0" 0 0 1456705509133 ""}
+{ "Info" "0" "" "----------------------------------------------------------" {  } {  } 0 0 "----------------------------------------------------------" 0 0 "0" 0 0 1456705509133 ""}

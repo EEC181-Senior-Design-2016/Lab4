@@ -1,0 +1,80 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst QSYS_lab4.hps_0.eosc2 -pg 1
+preplace inst QSYS_lab4.hps_0.fpga_interfaces -pg 1
+preplace inst QSYS_lab4.hps_0 -pg 1 -lvl 4 -y 420
+preplace inst QSYS_lab4.pll_0 -pg 1 -lvl 2 -y 200
+preplace inst QSYS_lab4.hps_0.qspi -pg 1
+preplace inst QSYS_lab4.hps_0.spim0 -pg 1
+preplace inst QSYS_lab4.hps_0.timer0 -pg 1
+preplace inst QSYS_lab4.hps_0.arm_a9_0 -pg 1
+preplace inst QSYS_lab4.hps_0.f2s_sdram_ref_clk -pg 1
+preplace inst QSYS_lab4.pll_1 -pg 1 -lvl 4 -y 610
+preplace inst QSYS_lab4.hps_0.spim1 -pg 1
+preplace inst QSYS_lab4.hps_0.wd_timer0 -pg 1
+preplace inst QSYS_lab4.hps_0.timer1 -pg 1
+preplace inst QSYS_lab4.hps_0.uart0 -pg 1
+preplace inst QSYS_lab4.hps_0.clkmgr -pg 1
+preplace inst QSYS_lab4.hps_0.arm_a9_1 -pg 1
+preplace inst QSYS_lab4.hps_0.axi_sdram -pg 1
+preplace inst QSYS_lab4.hps_0.usb0 -pg 1
+preplace inst QSYS_lab4.hps_0.i2c0 -pg 1
+preplace inst QSYS_lab4.hps_0.gpio0 -pg 1
+preplace inst QSYS_lab4.hps_0.wd_timer1 -pg 1
+preplace inst QSYS_lab4.hps_0.timer2 -pg 1
+preplace inst QSYS_lab4.hps_0.uart1 -pg 1
+preplace inst QSYS_lab4.hps_0.usb1 -pg 1
+preplace inst QSYS_lab4.hps_0.i2c1 -pg 1
+preplace inst QSYS_lab4.hps_0.gpio1 -pg 1
+preplace inst QSYS_lab4.hps_0.timer3 -pg 1
+preplace inst QSYS_lab4.hps_0.rstmgr -pg 1
+preplace inst QSYS_lab4.hps_0.L2 -pg 1
+preplace inst QSYS_lab4.hps_0.sdrctl -pg 1
+preplace inst QSYS_lab4.hps_0.i2c2 -pg 1
+preplace inst QSYS_lab4.hps_0.gpio2 -pg 1
+preplace inst QSYS_lab4.hps_0.dma -pg 1
+preplace inst QSYS_lab4.hps_0.bridges -pg 1
+preplace inst QSYS_lab4.hps_0.hps_io -pg 1
+preplace inst QSYS_lab4.hps_0.axi_ocram -pg 1
+preplace inst QSYS_lab4.hps_0.i2c3 -pg 1
+preplace inst QSYS_lab4.clk_0 -pg 1 -lvl 1 -y 220
+preplace inst QSYS_lab4.jtag_uart_0 -pg 1 -lvl 3 -y 360
+preplace inst QSYS_lab4.hps_0.sysmgr -pg 1
+preplace inst QSYS_lab4.hps_0.gmac0 -pg 1
+preplace inst QSYS_lab4.hps_0.f2s_periph_ref_clk -pg 1
+preplace inst QSYS_lab4 -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst QSYS_lab4.hps_0.timer -pg 1
+preplace inst QSYS_lab4.hps_0.gmac1 -pg 1
+preplace inst QSYS_lab4.hps_0.sdmmc -pg 1
+preplace inst QSYS_lab4.hps_0.arm_gic_0 -pg 1
+preplace inst QSYS_lab4.leds -pg 1 -lvl 3 -y 580
+preplace inst QSYS_lab4.hps_0.l3regs -pg 1
+preplace inst QSYS_lab4.hps_0.dcan0 -pg 1
+preplace inst QSYS_lab4.hps_0.nand0 -pg 1
+preplace inst QSYS_lab4.hps_0.fpgamgr -pg 1
+preplace inst QSYS_lab4.sysid_qsys_0 -pg 1 -lvl 3 -y 280
+preplace inst QSYS_lab4.switches -pg 1 -lvl 3 -y 700
+preplace inst QSYS_lab4.hps_0.dcan1 -pg 1
+preplace inst QSYS_lab4.alt_vip_vfr_0 -pg 1 -lvl 3 -y 140
+preplace inst QSYS_lab4.alt_vip_itc_0 -pg 1 -lvl 3 -y 40
+preplace inst QSYS_lab4.hps_0.eosc1 -pg 1
+preplace inst QSYS_lab4.hps_0.clk_0 -pg 1
+preplace inst QSYS_lab4.hps_0.hps_io.border -pg 1
+preplace netloc EXPORT<net_container>QSYS_lab4</net_container>(SLAVE)QSYS_lab4.reset,(SLAVE)clk_0.clk_in_reset) 1 0 1 NJ
+preplace netloc EXPORT<net_container>QSYS_lab4</net_container>(SLAVE)leds.external_connection,(SLAVE)QSYS_lab4.led_pio_external_connection) 1 0 3 NJ 610 NJ 610 NJ
+preplace netloc FAN_OUT<net_container>QSYS_lab4</net_container>(SLAVE)alt_vip_vfr_0.clock_reset,(SLAVE)alt_vip_itc_0.is_clk_rst,(MASTER)pll_0.outclk0) 1 2 1 580
+preplace netloc EXPORT<net_container>QSYS_lab4</net_container>(MASTER)pll_1.outclk0,(MASTER)QSYS_lab4.clk_65) 1 4 1 NJ
+preplace netloc EXPORT<net_container>QSYS_lab4</net_container>(SLAVE)QSYS_lab4.hps_0_hps_io,(SLAVE)hps_0.hps_io) 1 0 4 NJ 490 NJ 490 NJ 490 NJ
+preplace netloc EXPORT<net_container>QSYS_lab4</net_container>(SLAVE)switches.external_connection,(SLAVE)QSYS_lab4.dipsw_pio_external_connection) 1 0 3 NJ 730 NJ 730 NJ
+preplace netloc POINT_TO_POINT<net_container>QSYS_lab4</net_container>(MASTER)hps_0.f2h_irq0,(SLAVE)jtag_uart_0.irq) 1 2 3 660 470 NJ 380 1300
+preplace netloc EXPORT<net_container>QSYS_lab4</net_container>(SLAVE)clk_0.clk_in,(SLAVE)QSYS_lab4.clk) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>QSYS_lab4</net_container>(SLAVE)alt_vip_vfr_0.clock_master,(SLAVE)hps_0.f2h_axi_clock,(SLAVE)hps_0.h2f_lw_axi_clock,(SLAVE)jtag_uart_0.clk,(MASTER)clk_0.clk,(SLAVE)pll_0.refclk,(SLAVE)switches.clk,(SLAVE)hps_0.h2f_axi_clock,(SLAVE)sysid_qsys_0.clk,(SLAVE)pll_1.refclk,(SLAVE)leds.clk) 1 1 3 400 170 600 530 980
+preplace netloc EXPORT<net_container>QSYS_lab4</net_container>(MASTER)hps_0.h2f_reset,(MASTER)QSYS_lab4.hps_0_h2f_reset) 1 4 1 NJ
+preplace netloc FAN_OUT<net_container>QSYS_lab4</net_container>(MASTER)hps_0.h2f_lw_axi_master,(SLAVE)leds.s1,(SLAVE)jtag_uart_0.avalon_jtag_slave,(SLAVE)alt_vip_vfr_0.avalon_slave,(SLAVE)sysid_qsys_0.control_slave,(SLAVE)switches.s1) 1 2 3 640 570 NJ 600 1300
+preplace netloc POINT_TO_POINT<net_container>QSYS_lab4</net_container>(MASTER)alt_vip_vfr_0.avalon_streaming_source,(SLAVE)alt_vip_itc_0.din) 1 2 2 580 30 940
+preplace netloc POINT_TO_POINT<net_container>QSYS_lab4</net_container>(MASTER)alt_vip_vfr_0.avalon_master,(SLAVE)hps_0.f2h_axi_slave) 1 3 1 960
+preplace netloc EXPORT<net_container>QSYS_lab4</net_container>(SLAVE)hps_0.memory,(SLAVE)QSYS_lab4.memory) 1 0 4 NJ 550 NJ 550 NJ 550 NJ
+preplace netloc EXPORT<net_container>QSYS_lab4</net_container>(SLAVE)alt_vip_itc_0.clocked_video,(SLAVE)QSYS_lab4.alt_vip_itc_0_clocked_video) 1 0 3 NJ 50 NJ 50 NJ
+preplace netloc FAN_OUT<net_container>QSYS_lab4</net_container>(SLAVE)switches.reset,(SLAVE)jtag_uart_0.reset,(SLAVE)alt_vip_itc_0.is_clk_rst_reset,(SLAVE)pll_1.reset,(MASTER)clk_0.clk_reset,(SLAVE)sysid_qsys_0.reset,(SLAVE)leds.reset,(SLAVE)pll_0.reset,(SLAVE)alt_vip_vfr_0.clock_reset_reset,(SLAVE)alt_vip_vfr_0.clock_master_reset) 1 1 3 420 190 620 690 960
+levelinfo -pg 1 0 190 1450
+levelinfo -hier QSYS_lab4 200 230 450 690 1110 1320

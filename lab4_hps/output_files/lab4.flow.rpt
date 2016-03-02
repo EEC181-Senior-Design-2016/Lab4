@@ -1,0 +1,459 @@
+Flow report for lab4
+Tue Mar  1 12:10:48 2016
+Quartus II 64-Bit Version 15.0.0 Build 145 04/22/2015 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++---------------------------------+---------------------------------------------+
+; Flow Status                     ; Successful - Tue Mar  1 12:10:48 2016       ;
+; Quartus II 64-Bit Version       ; 15.0.0 Build 145 04/22/2015 SJ Full Version ;
+; Revision Name                   ; lab4                                        ;
+; Top-level Entity Name           ; lab4                                        ;
+; Family                          ; Cyclone V                                   ;
+; Device                          ; 5CSEMA5F31C6                                ;
+; Timing Models                   ; Final                                       ;
+; Logic utilization (in ALMs)     ; 2,754 / 32,070 ( 9 % )                      ;
+; Total registers                 ; 4811                                        ;
+; Total pins                      ; 227 / 457 ( 50 % )                          ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 60,638 / 4,065,280 ( 1 % )                  ;
+; Total DSP Blocks                ; 0 / 87 ( 0 % )                              ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 3 / 6 ( 50 % )                              ;
+; Total DLLs                      ; 1 / 4 ( 25 % )                              ;
++---------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 03/01/2016 12:00:30 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; lab4                ;
++-------------------+---------------------+
+
+
++--------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                               ;
++--------------------------------------------------------------------------------+
+Assignment Name : COMPILER_SIGNATURE_ID
+Value           : 203178706134261.145686242327579
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : ECO_REGENERATE_REPORT
+Value           : On
+Default Value   : Off
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : EDA_OUTPUT_DATA_FORMAT
+Value           : Vhdl
+Default Value   : --
+Entity Name     : --
+Section Id      : eda_simulation
+
+Assignment Name : EDA_SIMULATION_TOOL
+Value           : ModelSim-Altera (VHDL)
+Default Value   : <None>
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : HPS_ISW_FILE
+Value           : QSYS_lab4/synthesis/submodules/sequencer/sequencer_auto_inst_init.pre.c
+Default Value   : --
+Entity Name     : QSYS_lab4_hps_0_hps_io_border
+Section Id      : --
+
+Assignment Name : HPS_ISW_FILE
+Value           : QSYS_lab4/synthesis/submodules/sequencer/sequencer_auto_ac_init.pre.c
+Default Value   : --
+Entity Name     : QSYS_lab4_hps_0_hps_io_border
+Section Id      : --
+
+Assignment Name : HPS_ISW_FILE
+Value           : QSYS_lab4/synthesis/submodules/sequencer/sequencer_auto.pre.h
+Default Value   : --
+Entity Name     : QSYS_lab4_hps_0_hps_io_border
+Section Id      : --
+
+Assignment Name : HPS_ISW_FILE
+Value           : QSYS_lab4/synthesis/submodules/sequencer/sequencer.pre.h
+Default Value   : --
+Entity Name     : QSYS_lab4_hps_0_hps_io_border
+Section Id      : --
+
+Assignment Name : HPS_ISW_FILE
+Value           : QSYS_lab4/synthesis/submodules/sequencer/sequencer.pre.c
+Default Value   : --
+Entity Name     : QSYS_lab4_hps_0_hps_io_border
+Section Id      : --
+
+Assignment Name : HPS_ISW_FILE
+Value           : QSYS_lab4/synthesis/submodules/sequencer/system.pre.h
+Default Value   : --
+Entity Name     : QSYS_lab4_hps_0_hps_io_border
+Section Id      : --
+
+Assignment Name : HPS_ISW_FILE
+Value           : QSYS_lab4/synthesis/submodules/sequencer/tclrpt.pre.h
+Default Value   : --
+Entity Name     : QSYS_lab4_hps_0_hps_io_border
+Section Id      : --
+
+Assignment Name : HPS_ISW_FILE
+Value           : QSYS_lab4/synthesis/submodules/sequencer/tclrpt.pre.c
+Default Value   : --
+Entity Name     : QSYS_lab4_hps_0_hps_io_border
+Section Id      : --
+
+Assignment Name : HPS_ISW_FILE
+Value           : QSYS_lab4/synthesis/submodules/sequencer/emif.pre.xml
+Default Value   : --
+Entity Name     : QSYS_lab4_hps_0_hps_io_border
+Section Id      : --
+
+Assignment Name : HPS_ISW_FILE
+Value           : QSYS_lab4/synthesis/submodules/sequencer/sequencer_defines.pre.h
+Default Value   : --
+Entity Name     : QSYS_lab4_hps_0_hps_io_border
+Section Id      : --
+
+Assignment Name : HPS_ISW_FILE
+Value           : QSYS_lab4/synthesis/submodules/sequencer/alt_types.pre.h
+Default Value   : --
+Entity Name     : QSYS_lab4_hps_0_hps_io_border
+Section Id      : --
+
+Assignment Name : HPS_ISW_FILE
+Value           : QSYS_lab4/synthesis/submodules/sequencer/sdram_io.pre.h
+Default Value   : --
+Entity Name     : QSYS_lab4_hps_0_hps_io_border
+Section Id      : --
+
+Assignment Name : HPS_ISW_FILE
+Value           : QSYS_lab4/synthesis/submodules/hps.pre.xml
+Default Value   : --
+Entity Name     : QSYS_lab4_hps_0_hps_io_border
+Section Id      : --
+
+Assignment Name : HPS_PARTITION
+Value           : On
+Default Value   : --
+Entity Name     : QSYS_lab4_hps_0_hps_io_border
+Section Id      : --
+
+Assignment Name : MAX_CORE_JUNCTION_TEMP
+Value           : 85
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MIN_CORE_JUNCTION_TEMP
+Value           : 0
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MISC_FILE
+Value           : QSYS_lab4/synthesis/../QSYS_lab4.cmp
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MISC_FILE
+Value           : QSYS_lab4/synthesis/QSYS_lab4_hps_0_hps.svd
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MISC_FILE
+Value           : QSYS_lab4/synthesis/../../QSYS_lab4.qsys
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MISC_FILE
+Value           : QSYS_lab4/synthesis/submodules/sequencer/sequencer_auto_inst_init.pre.c
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MISC_FILE
+Value           : QSYS_lab4/synthesis/submodules/sequencer/sequencer_auto_ac_init.pre.c
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MISC_FILE
+Value           : QSYS_lab4/synthesis/submodules/sequencer/sequencer_auto.pre.h
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MISC_FILE
+Value           : QSYS_lab4/synthesis/submodules/sequencer/sequencer.pre.h
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MISC_FILE
+Value           : QSYS_lab4/synthesis/submodules/sequencer/sequencer.pre.c
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MISC_FILE
+Value           : QSYS_lab4/synthesis/submodules/sequencer/system.pre.h
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MISC_FILE
+Value           : QSYS_lab4/synthesis/submodules/sequencer/tclrpt.pre.h
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MISC_FILE
+Value           : QSYS_lab4/synthesis/submodules/sequencer/tclrpt.pre.c
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MISC_FILE
+Value           : QSYS_lab4/synthesis/submodules/sequencer/emif.pre.xml
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MISC_FILE
+Value           : QSYS_lab4/synthesis/submodules/sequencer/sequencer_defines.pre.h
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MISC_FILE
+Value           : QSYS_lab4/synthesis/submodules/sequencer/alt_types.pre.h
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MISC_FILE
+Value           : QSYS_lab4/synthesis/submodules/sequencer/sdram_io.pre.h
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MISC_FILE
+Value           : QSYS_lab4/synthesis/submodules/hps.pre.xml
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : PARTITION_COLOR
+Value           : 16764057
+Default Value   : --
+Entity Name     : --
+Section Id      : Top
+
+Assignment Name : PARTITION_FITTER_PRESERVATION_LEVEL
+Value           : PLACEMENT_AND_ROUTING
+Default Value   : --
+Entity Name     : --
+Section Id      : Top
+
+Assignment Name : PARTITION_NETLIST_TYPE
+Value           : SOURCE
+Default Value   : --
+Entity Name     : --
+Section Id      : Top
+
+Assignment Name : POWER_BOARD_THERMAL_MODEL
+Value           : None (CONSERVATIVE)
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : POWER_PRESET_COOLING_SOLUTION
+Value           : 23 MM HEAT SINK WITH 200 LFPM AIRFLOW
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : PROJECT_OUTPUT_DIRECTORY
+Value           : output_files
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : SLD_FILE
+Value           : QSYS_lab4/synthesis/QSYS_lab4.regmap
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : SLD_FILE
+Value           : QSYS_lab4/synthesis/QSYS_lab4.debuginfo
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : SLD_INFO
+Value           : QSYS_NAME QSYS_lab4 HAS_SOPCINFO 1 GENERATION_ID 1456861184
+Default Value   : --
+Entity Name     : QSYS_lab4
+Section Id      : --
+
+Assignment Name : SOPCINFO_FILE
+Value           : QSYS_lab4/synthesis/../../QSYS_lab4.sopcinfo
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : SYNTHESIS_ONLY_QIP
+Value           : On
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : USE_DLL_FREQUENCY_FOR_DQS_DELAY_CHAIN
+Value           : On
+Default Value   : Off
+Entity Name     : --
+Section Id      : --
++--------------------------------------------------------------------------------+
+
+
+
++--------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                              ;
++--------------------------------------------------------------------------------+
+Module Name                        : Analysis & Synthesis
+Elapsed Time                       : 00:01:30
+Average Processors Used            : 1.1
+Peak Virtual Memory                : 1565 MB
+Total CPU Time (on all processors) : 00:01:39
+
+Module Name                        : Fitter
+Elapsed Time                       : 00:02:49
+Average Processors Used            : 1.5
+Peak Virtual Memory                : 3291 MB
+Total CPU Time (on all processors) : 00:04:02
+
+Module Name                        : Assembler
+Elapsed Time                       : 00:00:24
+Average Processors Used            : 1.0
+Peak Virtual Memory                : 1152 MB
+Total CPU Time (on all processors) : 00:00:20
+
+Module Name                        : TimeQuest Timing Analyzer
+Elapsed Time                       : 00:01:14
+Average Processors Used            : 1.5
+Peak Virtual Memory                : 2063 MB
+Total CPU Time (on all processors) : 00:01:29
+
+Module Name                        : EDA Netlist Writer
+Elapsed Time                       : 00:00:13
+Average Processors Used            : 1.0
+Peak Virtual Memory                : 1525 MB
+Total CPU Time (on all processors) : 00:00:09
+
+Module Name                        : Total
+Elapsed Time                       : 00:06:10
+Average Processors Used            : --
+Peak Virtual Memory                : --
+Total CPU Time (on all processors) : 00:07:39
++--------------------------------------------------------------------------------+
+
+
+
++--------------------------------------------------------------------------------+
+; Flow OS Summary                                                                ;
++--------------------------------------------------------------------------------+
+Module Name      : Analysis & Synthesis
+Machine Hostname : viper
+OS Name          : Red Hat
+OS Version       : 6
+Processor type   : x86_64
+
+Module Name      : Fitter
+Machine Hostname : viper
+OS Name          : Red Hat
+OS Version       : 6
+Processor type   : x86_64
+
+Module Name      : Assembler
+Machine Hostname : viper
+OS Name          : Red Hat
+OS Version       : 6
+Processor type   : x86_64
+
+Module Name      : TimeQuest Timing Analyzer
+Machine Hostname : viper
+OS Name          : Red Hat
+OS Version       : 6
+Processor type   : x86_64
+
+Module Name      : EDA Netlist Writer
+Machine Hostname : viper
+OS Name          : Red Hat
+OS Version       : 6
+Processor type   : x86_64
++--------------------------------------------------------------------------------+
+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off lab4 -c lab4
+quartus_fit --read_settings_files=off --write_settings_files=off lab4 -c lab4
+quartus_asm --read_settings_files=off --write_settings_files=off lab4 -c lab4
+quartus_sta lab4 -c lab4
+quartus_eda --read_settings_files=off --write_settings_files=off lab4 -c lab4
+
+
+
