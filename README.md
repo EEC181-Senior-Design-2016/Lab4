@@ -15,3 +15,7 @@ PART 2: create edge detection algorithm
     - in Verilog, read original image in SDRAM,
         do the algorithm with accelated methods (quick multiplication and at most 1 time DMA for each pixel),
         write result to SDRAM
+
+- the files holding the latest code for each part are:
+    - lab4 p1 linux (PART 1)
+    - lab4 hps latest (PART 2)
